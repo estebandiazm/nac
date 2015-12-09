@@ -1,0 +1,38 @@
+.navbar {
+	opacity: 0.93;
+}
+#logo {
+	margin-top: -10px;
+}
+
+.row {
+	margin-top: 5%;
+}
+p {
+	text-align: justify;
+}
+#datos{
+	background-color: rgb(225, 253, 199);
+	border-radius: 15px;
+}
+.carousel-caption {
+	background-color: black;
+	opacity: 0.6;
+	border-radius: 30px;
+	padding-left: 3%; 
+	padding-right: 3%; 
+}
+#video-institucional{
+	width: 500px;
+	height: 350px;
+	margin: auto;
+}
+
+.jumbotron {
+	margin-top: 3%;
+}
+
+#logo {
+	margin-left: 15%;
+	margin-top: 5%;
+}

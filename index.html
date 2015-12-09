@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+		<title>Natural Aloe de Colombia</title>
+
+		<!-- CSS libraries -->
+		<link rel="stylesheet" media="screen" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="bootstrapvalidator/dist/css/bootstrapValidator.min.css">
+		<!-- JS Libreries -->
+		<script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
+		<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="bootstrapvalidator/dist/js/bootstrapValidator.min.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+
+	</head>
+	<body>
+
+
+		<div id="navegador" class="masthead">
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+					<a href="#" class="navbar-brand"><img id="logo" src="img/logo.png" width="40" height="40"></a>
+					<a class="navbar-brand" href="#"><strong><em>Natural Aloe de Colombia</em></strong></a>
+					<ul class="nav navbar-nav">
+						<li class"active"><a href="#">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Empresa<span class="caret"></span></a>
+							<ul class="dropdown-menu" rolw="menu">
+								<li><a href="#principal">¿Quiénes somos?</a></li>
+								<li><a href="#mision-vision">Misión y Visión</a></li>
+								<li><a href="#valores">Valores</a></li>
+							</ul>
+						</li>
+						<li><a href="#productos">Productos</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#modal-contact">Contactenos</a></li>
+						<li><a href="#">CRM</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Carousel-->
+	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	      <!-- Indicators -->
+	      	<ol class="carousel-indicators">
+		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		        <li data-target="#myCarousel" data-slide-to="1"></li>
+		        <li data-target="#myCarousel" data-slide-to="2"></li>
+	      	</ol>
+		    <div class="carousel-inner">
+		        <div class="item active">
+			        <img src="img/1.jpg" alt="First slide" class="slide-img">
+			          	<div class="container">
+			            	<div class="carousel-caption">
+			              		<h1>Gel de Aloe Vera</h1>
+			              		<p>Se obtiene de la pulpa de las hojas carnosas del aloe, desprenden un jugo gelatinoso transparente y de sabor insípido. Está formado por una mezcla compleja de más de 20 sustancias, como polisacáridos glucósidos, enzimas y minerales. A diferencia del acíbar, el gel de Aloe no tiene propiedades laxantes sino que regula la digestión.</p>
+			              		<p><a class="btn btn-lg btn-primary" href="#" role="button">Más información	</a></p>
+			            	</div>
+			         	</div>
+			        </div>
+			        <div class="item">
+			          	<img src="img/2.jpg" alt="Second slide" class="slide-img">
+		         		<div class="container">
+		            		<div class="carousel-caption">
+		              			<h1>Sabila</h1>
+		              			<p><b>La  Sábila (Aloe vera)</b>, es una planta que pertenece a la familia de las liliáceas. Se parece a un pequeño maguey. Es perenne, de rizoma largo. Se propaga por división de mata. Y tiene un hábito de crecimiento herbáceo. El análisis fitoquímico de la Sábila refleja que tienen aceites esenciales, alcaloides, glucósidos cardiotónicos, taninos, glucosa, proteínas y resinas. De la Sábila se emplean la raíz, el tallo y las hojas. Esta planta tiene propiedades medicinales para combatir el dolor de cabeza, es estomaquica, para infecciones cutáneas, para el control de las paperas, para amenorreas y es usada como purgante. Es originaria del continente Africano, habiendo sido introducida al nuevo mundo por los Jesuitas españoles en el año de 1590, durante la época de la colonia.</p>
+		              			<p><a class="btn btn-lg btn-primary" href="#" role="button">Más información</a></p>
+		            		</div>
+		          		</div>
+			        </div>
+			        <div class="item">
+			         	<img src="img/3.jpg" alt="Third slide" class="slide-img">
+			          	<div class="container">
+			            	<div class="carousel-caption">
+			              		<h1>Penca de Sabila</h1>
+			              		<p>La sábila es un increíble antitóxico y antimicrobiano. Es astringente, analgésico y anticoagulante. Es un vigoroso estimulante del crecimiento celular. La tintura o el zumo diluidos en agua a partes iguales, usadas varias veces en forma de gárgaras de 3 a 4 minutos, actúa eficazmente contra los dolores dentales y de las encías, neuralgias, aftas, laringitis, disfonía amigdalitis, anginas, placas y cualquier afección bucal o faríngea.</p>
+			             		 <p><a class="btn btn-lg btn-primary" href="#" role="button">Más información</a></p>
+			            	</div>
+			          	</div>
+		       		</div>
+		    </div>
+	      	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	      	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	    </div><!-- /.carousel -->
+
+		<!-- jumbotron principal-->
+		<div class="container" id="principal">
+			<div  class="jumbotron">
+				<div class="col-md-6">
+					<img src="img/logo.png" alt="logo" id="logo">
+				</div>
+				<div class="row-md-6">
+					<iframe id="video-institucional" class=" media-object" src="http://www.youtube.com/embed/bjgH79aW54M" allowfullscreen></iframe>	
+				</div>
+				<h1 class="media-heading">¿Quiénes somos?</h1>
+				<p id="text-quienes-somos">Empresa Boyacense, registrada en la camara de comercio de Tunja el día 17 de Julio de 2009. Creada con el objetivo de promover el cultivo de la sábila, como alternativa de desarrolloagrícola. Con la finalidad de transforma la penca de sábila para obtener <b>GEL ESTABILIZADO</b>de <b>ALOE VERA</b>, como insumo para abastecer la industria Cósmetica, Farmacéutica y de Alimentos a nivel nacional e internacional</p>				
+			</div>
+		</div>
+		
+
+		<!-- panel productos-->
+
+		<div class="container" id="productos">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-success">
+						<div class="panel panel-heading">
+								<h4>Procutos</h4>
+						</div>
+						<div class="panel panel-body">
+							<div class="media">
+								<a class="pull-left">
+									<img class="media-object img-circle" width="200px" height="200px" src="img/botella1.jpg" alt="">
+								</a>
+								<div class="media-body">
+									<h3 class="media-heading"><b>SAV</b></h3>
+									<p>Nuestra  bebida con cristales de ALOE DE VERA, producto 100% colombiano, producido con materias primas de nuestros campos boyacenses. Proporciona un conjunto de propiedades protectoras y antioxidantes. Maravilloso estimulante del sistema inmunológico, ayuda a la formación de glóbulos blancos y además cumple una importante función depurativa, ayudando a eliminar los metales residuales de nuestro organismo (procedentes de los pesticidas, medicamentos o productos tóxicos), así como las bacterias y virus. Además de eso, el aloe vera contiene diferentes sales minerales e importantes vitaminas como los betacarotenos (B1, B2, B3, B6, ácido fólico), vitamina C y vitamina E ambas con función antioxidante.</p><br>
+									<p>Es útil para la recuperación de la piel, la pérdida rápida calmante, el peso, y el alivio de la fatiga. La Bebida T’best Aloe Vera contiene muchas vitaminas, minerales, aminoácidos, calcio, enzimas, saponinas, esteroles y ácido salicílico. Usted puede disfrutar el sabor natural excelente, así como los beneficios para la salud. Sabores disponibles: Durazno.</p>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+
+		<!-- container mision vision -->	
+		<div class="container" id="mision-vision">
+			<div class="row" >
+				<!-- Row mision -->
+				<div class="col-md-6">
+					<div class="panel panel-success" id="mision">
+						<div class="panel panel-heading">
+							<h4>Misión</h4>
+						</div>
+						<div class="panel panel-body">
+							<p><b>Natural Aloe de Colombia</b> es una empresa boyacense que incursiona en el sector agroindustrial, que busca impulsar el desarrollo social y económico de la región por medio del aprovechamiento y la transformación de la Penca de Sábila en productos de alta calidad con alta concentración de Aloe Vera que satisfagan las necesidades de mercados industriales y de la salud y la belleza de la población en general con un enfoque hacia la eficiencia y la responsabilidad social.</p>						
+						</div>
+					</div>
+				</div>
+ 				<!-- Row vision -->
+				<div class="col-md-6">
+					<div class="panel panel-success" id="vision">
+						<div class="panel panel-heading">
+							<h4>Visión</h4>
+						</div>
+						<div class="panel panel-body">
+							<p>En el 2015 Natural Aloe de Colombia será una empresa solida con un enfoque social, líder en el mercado departamental en la transformación del Aloe Vera mediante la investigación, desarrollo e innovación de bienes y servicios buscando siempre la satisfacción de las necesidades de nuestros clientes con productos de óptima calidad.<br>En el año 2014 seremos una organización competitiva con productos desarrollados acordes a las necesidades de nuestros clientes, convirtiéndonos en una importante opción en el mercado de turismo de salud en el departamento de Boyacá y un referente de desarrollo empresarial a nivel nacional.</p>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Container de valores -->
+		<div class="container" id="valores">					
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-success">
+						<div class="panel panel-heading">
+							<h4>Valores</h4>
+						</div>
+						<div class="panel panel-body">
+							<p>
+									<b>Respeto:</b> valorar a los demás, acatar su autoridad y considerar su dignidad. <br><br>
+									<b>Honestidad:</b> consiste en comportarse y expresarse con sinceridad y coherencia, respetando los valores de la justicia y la verdad.<br><br>
+									<b>Responsabilidad social:</b> compromiso con la sociedad o comunidad en su conjunto.<br><br>
+									<b>Trabajo en equipo:</b> colaboración a fin de alcanzar la consecución de un resultado determinado.<br><br>
+									<b>Calidad:</b> Trabajar eficazmente para satisfacer las necesidades de nuestros clientes.<br><br>
+									<b>Confianza:</b> reflejar una imagen excelente sobre lo que hacemos.<br><br>
+									<b>Eficiencia:</b> el logro de las metas con la menor cantidad de recursos.<br><br>
+									<b>Eficacia:</b> es el cumplimiento de objetivos.<br><br>
+									<b>Gestión de conocimiento:</b> es el proceso mediante el cual se obtiene, despliega o utiliza una variedad de recursos básicos para apoyar los objetivos de la organización.<br><br>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<!-- Modal Contactenos -->
+		<div class="modal fade" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Contactenos</h4>
+		      </div>
+		      <div class="modal-body">
+		        <form role="form" class="form" method="POST" id="formulario">
+		        	<div class="form-group">
+		        		<label for="name">Nombres y Apellidos</label>
+		        		<input type="text" class="form-control" name="name" placeholder="Ingrese su nombre" />
+		        	</div>
+		        	<div class="form-group">		        		
+		        		<label for="correo">Correo</label>
+		        		<input type="email" class="form-control" name="email" placeholder="Ingrese su E-Mail" />	
+		        	</div>
+		        	<div class="form-group">
+		        		<label for="mensaje">Mensaje</label>
+		        		<textarea class="form-control" rows="5" name="mensaje" placeholder="Ingrese su mensaje"></textarea> 
+		        	</div>
+		        </form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		        <button type="button" type="submit" class="btn btn-primary" acttion=".alert('Pronto nos contactamos con ud')">Enviar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+
+		<!-- Modulo de datos de la empresa -->
+		<div class="container" id="datos">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Servicios</h2>
+					<ul>
+						<li>ascesoria en cultivos</li>
+						<li>Venta de productos terminados</li>
+						<li>Productos en gel</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h2>Contacto</h2>
+					<ul>
+						<li>Planta: Diagonal 38 Nro 18 - 100 salida via Tunja-Moniquirá</li>
+						<li>Móvil : (+57) 3212047352 - (+57) 3208138280 </li>
+						<li>E-mail: naturalaloedecolombia@hotmail.com</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h2>Mapa</h2>
+					<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=211326405260112121347.0004d6e7959b860488bef&amp;ie=UTF8&amp;t=m&amp;ll=5.549355,-73.359575&amp;spn=0.025629,0.025749&amp;z=14&amp;output=embed"></iframe>
+				</div>
+			</div>
+		</div><!--end container empresa-->
+
+		<!-- Footer -->
+		<hr>
+		<div class="footer">
+        		<p>&copy; CopyRigth 2014, Developed by Juan Esteban Diaz</p>
+      	</div>
+	</body>
+</html>
